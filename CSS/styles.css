@@ -62,9 +62,9 @@ p {
 }
 
 /* Image Title */
-.image-iphone6 {
-    width: 60%;
-    transform: rotate(25deg);
+.image-cat {
+    width: 55%;
+    transform: rotate(5deg);
     position: absolute;
     right: 30%;
 }
@@ -141,6 +141,9 @@ p {
 }
 
 @media (max-width: 1028px) {
+    #title .navbar {
+        text-align: right;
+    }
     #title {
         text-align: center;
     }
