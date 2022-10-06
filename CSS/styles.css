@@ -180,3 +180,29 @@ p {
 html {
     scroll-behavior: smooth;
 }
+
+
+
+/* animations */
+
+.hidden {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translateZ(100%);
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateZ(0);
+
+}
+
+/* kalo ga mau liat animasi-animasi lagi maka gunakan ini */
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
